@@ -20,6 +20,7 @@ import javax.persistence.Table;
 })
 @Table(name = "messages")
 public class Message {
+//    DTOの役割
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
