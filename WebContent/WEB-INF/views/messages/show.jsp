@@ -11,5 +11,6 @@
 
         <!-- pageContext...で /message_board というコンテキストパスの文字列に置き換え -->
         <p><a href = "${pageContext.request.contextPath}/index">一覧に戻る</a></p>
+        <p><a href = "${pageContext.request.contextPath}/edit?id=${message.id}">このメッセージを編集する</a></p>
     </c:param>
 </c:import>
